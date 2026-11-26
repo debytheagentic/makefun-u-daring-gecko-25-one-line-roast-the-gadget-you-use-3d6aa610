@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "My phone charged to 100% by 9am, yet still slides me a low-power popup by noon - apparently the percentage was more of a mood."
+ENTRY = "My phone leaves home at 100% and dies by noon - the battery percentage is a horoscope, not a measurement."
 
 outdir = os.environ.get("OUTPUT_DIR", "/output")
 os.makedirs(outdir, exist_ok=True)
