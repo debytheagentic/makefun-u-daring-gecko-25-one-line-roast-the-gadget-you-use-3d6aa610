@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "By 4pm my phone's battery is a rumor, yet the low-power popup still shows up on time - punctual to its own funeral."
+ENTRY = "My phone charged to 100% by 9am, yet still slides me a low-power popup by noon - apparently the percentage was more of a mood."
 
 outdir = os.environ.get("OUTPUT_DIR", "/output")
 os.makedirs(outdir, exist_ok=True)
